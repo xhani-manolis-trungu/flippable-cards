@@ -28,7 +28,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
+              "src/styles.scss",
+              "./node_modules/font-awesome/scss/font-awesome.scss"
             ],
             "scripts": []
           },
@@ -92,6 +94,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +126,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "flippable-cards"
+    }
+  },
+  "defaultProject": "flippable-cards",
+  "cli": {
+    "analytics": "5dc63a7d-2687-427e-aadf-e935349f6d35"
+  }
 }
